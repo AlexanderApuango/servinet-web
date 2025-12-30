@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.header {
+    background: #0a4dbf;
+    color: white;
+    padding: 40px 20px;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #25d366;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+.gray {
+    background: #f4f4f4;
+}
+
+.planes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.plan {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.precio {
+    font-size: 24px;
+    color: #0a4dbf;
+    font-weight: bold;
+}
+
+.nota {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
